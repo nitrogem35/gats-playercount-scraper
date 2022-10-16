@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     res.status(200).send(JSON.stringify(history))
 })
 
-app.listen(8000)
+app.listen(443)
 
 var fetchPlayerCountLoop = setInterval(() => {
     fetchPlayerCount()
