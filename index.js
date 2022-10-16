@@ -28,10 +28,11 @@ function fetchPlayerCount() {
     request.open('POST', 'https://io-8.com/find_instances', true)
     request.setRequestHeader('Content-Type', 'application/json')
     var info = {
-        game: 'gats.io',
+        game: 'gats.io'
     }
     request.send(JSON.stringify(info))
     request.onload = function () {
+        console.log(this.responseText)
         var resp = JSON.parse(this.responseText)
         for (var i = 0; i < resp.length; i++) {
             playerCount += resp[i].players
