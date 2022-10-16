@@ -32,7 +32,7 @@ function fetchPlayerCount() {
     }
     request.send(JSON.stringify(info))
     request.onload = function () {
-        console.log(this.responseText)
+        if (this.responseText.startsWith("<")) return
         var resp = JSON.parse(this.responseText)
         for (var i = 0; i < resp.length; i++) {
             playerCount += resp[i].players
