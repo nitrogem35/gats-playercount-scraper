@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "canvas": "^2.9.3",
+    "chartjs-node-canvas": "^4.1.6",
+    "cors": "^2.8.5",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "edit-json-file": "^1.7.0",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-ws": "^5.0.2",
+    "gpu-info": "^0.0.1",
+    "image-data-uri": "^2.0.1",
+    "localtunnel": "^2.0.2",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^2.6.7",
+    "node-html-parser": "^5.3.3",
+    "os-utils": "^0.0.14",
+    "s-ago": "^2.2.0",
+    "table-scraper": "^1.0.3",
+    "undici": "^5.5.1",
+    "ws": "^8.8.0",
+    "xmlhttprequest": "^1.8.0",
+    "xmlhttprequest-ssl": "^2.0.0"
+  }
+}
